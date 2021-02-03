@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap');
+
+.recipt{
+    background: url(assets/recipt1.jpg); 
+   border:1px solid black;
+    height:750px;
+    width:350px;
+
+}
+
+.input{
+    
+    display:block;
+    position:relative;
+    top:330px;
+    width:100px;
+    left:130px;
+    height:25px;
+    font-size:25px;
+    font-family: 'Chakra Petch', sans-serif;
+    
+}
+
+.service-input{
+    position:relative;
+    top:365px;
+    width:70px;
+    left:235px;
+    font-family: 'Chakra Petch', sans-serif;
+ 
+
+
+}
+.labels{
+    color:black;
+}
+.tip{
+    position:relative;
+    top:380px;
+    width:70px;
+    left:135px;
+    font-family: 'Chakra Petch', sans-serif;
+    color:red;
+    font-size:25px;
+
+}
+
+.total{
+    position:relative;
+    top:385px;
+    width:70px;
+    left:135px;
+    margin-top:-20px;
+    font-family: 'Chakra Petch', sans-serif;
+    color:red;
+    font-size:25px;
+}
+
+.buttondiv{
+   
+    position: relative;;
+    border:2px dashed black;
+    background:rgb(224, 221, 221);
+    font-family: 'Chakra Petch', sans-serif;
+    width:100px;
+    height:30px;
+    border-radius:10px;
+    display:flex;
+  justify-content: center;
+  align-items: center;
+  top:380px;
+  left:120px;
+ 
+}
+
+.buttondiv:hover{
+    cursor: pointer;
+}
+
